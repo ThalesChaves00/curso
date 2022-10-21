@@ -49,6 +49,12 @@ background: #fff;
     padding: 10px;
     margin-bottom: 20px;
 }
+.conteudo-lateral2{
+    background: white;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    
+}
 .postagem-lateral{
     font-size: 0.8em;
     padding: 5px;
@@ -59,8 +65,8 @@ background: #fff;
 clear: both;
 text-align: center;
 padding: 15px;
-
 background: #ccc;
+float: bottom;
 }
 
 
