@@ -4,8 +4,26 @@ ul{
     padding: 0;
     
 }
-li{
 
-    border: 1px solid red ;
-    padding: 20px;
+
+    
+   
+
+ul a{
+width: 200px;
+height: 40px;
+    background:#f7b600 url(../img/arquivos-necessarios-barra-navegacao-vertical/menu.png) no-repeat left bottom;
+display: block;
+text-decoration: none;
+color: black;
+text-indent: 40px;/*mover para o meio da linha horizontal*/
+line-height: 40px;/*mover para o meio da linha na vertical*/
+
+
+}
+a:hover{
+    background-position: right bottom;
+    color: white;
+    background-color: #f99200;
+    
 }
