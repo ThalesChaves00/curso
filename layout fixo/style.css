@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+
+}
+#container{
+width: 720px;
+margin: 0 auto;
+background: #fff;
+
+
+}
+#marca{
+height:100px;
+
+line-height: 100px;
+background-color: rgb(155, 155, 155);
+
+text-align: center;
+}
+#conteudo{
+width: 520px;
+
+float: right;
+
+
+}
+#conteudo-principal{
+    width: 250px;
+    float: left;
+    padding-right: 20px;
+padding-left: 10px;
+    
+}
+#conteudo-secundario{
+width:180px;
+float: right;
+background-color: lightgray;
+text-align: left;
+padding-left: 20px;
+padding-right: 20px;
+
+
+}
+#navegacao{
+float: left;
+width: 180px;
+background: lightgray;
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+a{
+    list-style:none ;
+}
+li a{
+text-decoration: none;
+list-style:none;
+display: block;
+line-height: 20px;
+width: 155px;
+
+
+
+}
+#rodape{
+    clear: both;
+    background: lightgray;
+    padding: 5px;
+}

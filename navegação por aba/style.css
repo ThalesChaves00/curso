@@ -1,0 +1,45 @@
+body #home{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+ul{
+list-style-type: none;
+width: 720px;
+margin: 0;
+padding: 0;
+float:left;
+
+
+
+}
+ul li{
+    float: left;
+    background: url(img3/aba-direita.png) no-repeat top right;
+}
+li a {
+    display: block;
+    padding: 0 3em;
+    line-height: 2.8em;
+    text-decoration: none;
+    color:white;
+    background: url(img3/aba-esquerda.png) no-repeat top left;
+    
+}
+ul .homeprimetiro{
+    background: none;
+}
+ul a:hover{
+
+color: #894a1f;
+
+}
+ul #atual{
+
+    background: url(img3/aba-direita-atual.png) no-repeat top right;
+}
+ul #atual a{
+
+background: url(img3/aba-esquerda-atual.png) no-repeat top left;
+
+
+}
