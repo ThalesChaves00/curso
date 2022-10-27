@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+div #fundo{
+width: 920px;
+height: 200px;
+border: 1px solid red;
+background: url(imagens/fundo.png) bottom;
+
+
+position: relative;
+
+margin: 0;
+}
+div #logo{
+
+background: url(imagens/logo.png)  no-repeat ;
+border: 1px solid rgb(60, 45, 102);
+width: 200px;
+height: 70px;
+position: absolute;
+margin-left: 25%; margin-top: -37%;
+top: 50%;
+
+}
