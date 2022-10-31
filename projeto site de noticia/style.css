@@ -108,12 +108,38 @@ margin: 0 0 20px 15px;
 width:  180px;
 float: left;
 margin:0 0 20px -750px ;
-background: lawngreen;
+
+}
+
+
+
+
+.caixa{
+background:#f3f3f3 url(imagens/fundo-caixa.png);
+margin:10px 0 ;
+padding: 5px ;
+
+
+}
+h2{
+    font-size: 1.1em;
+background: #294c71;
+color: white;
+padding: 5px;
+
+
+}
+#caixa-conteudo{
+
+
+
+    
 }
 #container-rodape{
     background: #294c71;
     padding: 20px;
 }
+
 #rodape{
 width: 750px;
 margin: 0 auto;
