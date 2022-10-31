@@ -79,7 +79,7 @@ margin-top: 60px;
 #primario{
 width: 270px;
 float: left;
-background: red;
+
 margin: 0 0 20px 195px;
 
 
@@ -129,11 +129,13 @@ padding: 5px;
 
 
 }
-#caixa-conteudo{
+.caixa-conteudo{
+background: #fff;
+padding: 5px;
+margin-top: 5px;
 
 
 
-    
 }
 #container-rodape{
     background: #294c71;
