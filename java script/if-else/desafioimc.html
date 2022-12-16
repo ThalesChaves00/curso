@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio imc</title>
+    <script>
+var nome = prompt('Digite seu nome:')
+var altura = prompt('Digite sua altura em centimetros:')
+var peso = prompt('digite se peso:')
+altura = parseFloat(altura)
+peso = parseFloat(peso)
+altura /=100
+var m = peso / (altura * altura)
+
+if (m<16) { alert('Baixo pesso muito grave')}
+
+if (m>=16 && m<=16.99) {alert('Baixo Peso Grave')}
+if (m>=17 && m<=18.49) {alert('Baixo Peso ')}
+if (m>=18.50 && m<=24.99) {alert(' Peso normal ')}
+if (m>=25 && m<=29.99) {alert('Sobre Peso')}
+if (m>=30 && m<=34.99) {alert('Obesidade grau 1')}
+if (m>=35 && m<=39.99) {alert('Obesidade grau2')}
+if (m>40 ) {alert('Obesidade grau 3')}
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
